@@ -1,0 +1,23 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+
+.black_tile {
+    display: flex;
+    width: 6vw;
+    height: 6vw;
+    background-color: gray;
+}
+
+.gray_tile {
+    display: flex;
+    width: 6vw;
+    height: 6vw;
+    background-color: black;
+}
+
+.row {
+    display: flex;
+}
